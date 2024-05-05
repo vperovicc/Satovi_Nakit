@@ -1,0 +1,10 @@
+.brands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.brandBox {
+    flex: 1 1 calc(25% - 10px); /* Each box takes 25% of the container width with some margin */
+    margin: 5px; /* Margin between each BrandBox */
+  }

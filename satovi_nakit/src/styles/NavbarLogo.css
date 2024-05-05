@@ -1,0 +1,46 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLeft{
+    display: flex;
+}
+
+.buttonBlack{
+    background-color: black;
+    width: 180px;
+    height: 40px;
+    color:white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonBlack p{
+    margin: 0px;
+}
+
+.navLeft img{
+    margin-left: 10px;
+}
+
+.navCenter{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.navRight{
+    display: flex;
+    padding-top: 60px;
+}
+
+.navRight img{
+    margin-right: 10px;
+}
